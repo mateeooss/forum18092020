@@ -1,0 +1,12 @@
+package adsis4sem2020;
+
+public class App {
+	public static void main(String[] args) {
+		Cliente arthur = new Cliente();
+		Veterinario matheus = new Veterinario();
+		Pet rex= new Pet("rex");
+		rex.setPedigree();
+		
+	}
+
+}
